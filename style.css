@@ -265,7 +265,7 @@ main {
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     color: var(--clr-primary-5);
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 #info {
