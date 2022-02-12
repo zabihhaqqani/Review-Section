@@ -3,8 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=IBM+Plex+Sans+Thai+Looped&family=Lato&family=Montserrat&family=Roboto&family=Rowdies&display=swap');
 /*
 =============== 
 Variables
@@ -18,7 +17,7 @@ Variables
     --clr-primary-3: hsl(205, 72%, 37%);
     --clr-primary-4: hsl(205, 63%, 48%);
     /* primary/main color */
-    --clr-primary-5: hsl(205, 78%, 60%);
+    --clr-primary-5: rgb(60, 60, 146);
     /* lighter shades of primary color */
     --clr-primary-6: hsl(205, 89%, 70%);
     --clr-primary-7: hsl(205, 90%, 76%);
@@ -43,9 +42,9 @@ Variables
     --clr-green-dark: hsl(125, 67%, 44%);
     --clr-green-light: hsl(125, 71%, 66%);
     --clr-black: #222;
-    --ff-primary: "Roboto", sans-serif;
-    --ff-secondary: "Open Sans", sans-serif;
-    --transition: all 0.3s linear;
+    --ff-primary: "lato", sans-serif;
+    --ff-secondary: "lato", sans-serif;
+    --transition: all 0.25s linear;
     --spacing: 0.1rem;
     --radius: 0.25rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -293,16 +292,18 @@ main {
     margin-top: 0.5rem;
     background: var(--clr-primary-10);
     color: var(--clr-primary-5);
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     text-transform: capitalize;
     border-radius: var(--radius);
     transition: var(--transition);
     border-color: var(--clr-primary-5);
     cursor: pointer;
+
 }
 
 .random-btn:hover {
     background: var(--clr-primary-5);
-    color: var(--clr-primary-1);
+    color: white;
+     
 }
 
